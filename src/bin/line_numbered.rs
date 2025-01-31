@@ -18,7 +18,7 @@ fn print_line_nums(filename: &str) -> std::io::Result<()> {
     let file_str = read_to_string(filename)?;
     println!("Contents of {filename}:");
     for (line_num, line) in file_str.lines().enumerate() {
-        println!("{}: {line}", line_num + 1);
+        println!("{}: {}", line_num + 1, line);
     }
     Ok(())
 }
