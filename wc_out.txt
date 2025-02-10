@@ -1,0 +1,2 @@
+child (pid: 1513168)
+  40  115 1529 src/bin/fork4.rs
